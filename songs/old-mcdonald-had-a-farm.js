@@ -1,0 +1,22 @@
+export default {
+  artist: '',
+  scale: 'Major',
+  title: 'Old McDonald had a farm',
+  notes: [
+    ['C', 'C', 'C', 'G'],
+    ['A', 'A', 'G'],
+    ['E', 'E', 'D', 'D', 'C'],
+    ['G', 'C', 'C', 'C', 'G'],
+    ['A', 'A', 'G'],
+    ['E', 'E', 'D', 'D', 'C'],
+    ['G', 'G', 'C', 'C', 'C'],
+    ['G', 'G', 'C', 'C', 'C'],
+    ['C', 'C', 'C'],
+    ['C', 'C', 'C'],
+    ['C', 'C', 'C'],
+    ['C', 'C', 'C'],
+    ['C', 'C', 'C', 'G'],
+    ['A', 'A', 'G'],
+    ['E', 'E', 'D', 'D', 'C'],
+  ],
+}
