@@ -1,0 +1,20 @@
+export default {
+  artist: '',
+  scale: 'Major',
+  title: 'If you are happy and you know it',
+  notes: [
+    ['C', 'C'],
+    ['F', 'F', 'F', 'F', 'F', 'F'],
+    ['E', 'F', 'G'],
+    ['C', 'C'],
+    ['G', 'G', 'G', 'G', 'G', 'G'],
+    ['F', 'G', 'A'],
+    ['A', 'A'],
+    ['B', 'B', 'B', 'B', 'D', 'D'],
+    ['B', 'B'],
+    ['A', 'A', 'A', 'G', 'F', 'F'],
+    ['A', 'A'],
+    ['G', 'G', 'G', 'F', 'E', 'E'],
+    ['D', 'E', 'F'],
+  ],
+}
