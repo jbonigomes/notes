@@ -1,6 +1,7 @@
 import she from './she'
 import taxman from './taxman'
 import theChain from './the-chain'
+import prettyFly from './pretty-fly'
 import doReDoRe from './do-re-do-re'
 import doMiDoMi from './do-mi-do-mi'
 import prayerInC from './prayer-in-c'
@@ -23,6 +24,7 @@ export default [
   doReDoRe,
   doMiDoMi,
   prayerInC,
+  prettyFly,
   thisOldMan,
   frereJacques,
   deckTheHalls,
