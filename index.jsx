@@ -6,7 +6,6 @@ import { useState } from 'preact/hooks'
 import songs from './songs'
 import Fab from './components/Fab'
 import Song from './components/Song'
-import Pallet from './components/Pallet'
 
 import Code from './icons/Code'
 import Note from './icons/Note'
@@ -50,7 +49,6 @@ const App = () => {
 
   return (
     <>
-      <Pallet />
       <Fab
         actions={[
           { Icon: Code, onClick: json },

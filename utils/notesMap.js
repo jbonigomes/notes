@@ -1,9 +1,9 @@
 export const notesMap = {
-  'A': { colour: 'yellow', alias: 'La' },
-  'B': { colour: 'orange', alias: 'Ti' },
-  'C': { colour: 'lime', alias: 'Do' },
-  'D': { colour: 'blue', alias: 'Re' },
-  'E': { colour: 'violet', alias: 'Mi' },
-  'F': { colour: 'fuchsia', alias: 'Fa' },
-  'G': { colour: 'rose', alias: 'So' },
+  'A': { colour: '#02F', alias: 'La' },
+  'B': { colour: '#3C3', alias: 'Ti' },
+  'C': { colour: '#F01', alias: 'Do' },
+  'D': { colour: '#FF4', alias: 'Re' },
+  'E': { colour: '#EFF', alias: 'Mi' },
+  'F': { colour: '#A21', alias: 'Fa' },
+  'G': { colour: '#F62', alias: 'So' },
 }

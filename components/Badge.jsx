@@ -1,9 +1,9 @@
-import { getScaleIntensity } from '../utils'
+import { getScaleColour } from '../utils'
 
-export default ({ scale }) => (
+export default ({ label }) => (
   <div
     className={[
-      'px-2',
+      'px-1',
       'top-0',
       '-mt-1',
       '-mr-1',
@@ -15,9 +15,9 @@ export default ({ scale }) => (
       'font-bold',
       'uppercase',
       'text-white',
-      `bg-${getScaleIntensity(scale)}-900`,
+      getScaleColour(label),
     ].join(' ')}
   >
-    <div className="fix-badge">{scale}</div>
+    <div className="fix-badge">{label}</div>
   </div>
 )

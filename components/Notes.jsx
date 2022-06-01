@@ -1,4 +1,5 @@
-import { notesMap, getNoteIntensity } from '../utils'
+import Badge from './Badge'
+import { notesMap } from '../utils'
 
 export default ({ notes, alias }) => (
   <ul className="flex flex-row justify-center">
@@ -10,17 +11,19 @@ export default ({ notes, alias }) => (
           'mx-1',
           'my-2',
           'flex',
+          'relative',
           'font-bold',
-          'text-white',
           'rounded-full',
           'items-center',
+          'text-black/60',
           'justify-center',
-          `bg-${notesMap[note[0]].colour}-${getNoteIntensity(note[1])}`,
+          `bg-[${notesMap[note[0]].colour}]`,
         ].join(' ')}
       >
         <span className="fix-note">
           {alias ? notesMap[note[0]].alias : note[0]}
         </span>
+        {note[1] && <Badge label={note[1]} />}
       </li>
     ))}
   </ul>
