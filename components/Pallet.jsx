@@ -8,6 +8,7 @@ export default () => (
       'bg-[#EFF]',
       'bg-[#A21]',
       'bg-[#F62]',
+      'bg-[#669]',
       'bg-red-900',
       'bg-blue-900',
       'bg-zinc-900',

@@ -6,4 +6,5 @@ export const notesMap = {
   'E': { colour: '#EFF', alias: 'Mi' },
   'F': { colour: '#A21', alias: 'Fa' },
   'G': { colour: '#F62', alias: 'So' },
+  '#': { colour: '#669', alias: '♭' },
 }
