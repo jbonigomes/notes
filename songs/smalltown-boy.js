@@ -1,4 +1,3 @@
-smalltown-boy.js
 export default {
   scale: 'Minor',
   artist: 'Bronski Beat',
