@@ -27,6 +27,7 @@ import comeAsYouAre from './come-as-you-are'
 import underPressure from './under-pressure'
 import happyBirthday from './happy-birthday'
 import risinToTheTop from './risin-to-the-top'
+import peterGunnTheme from './peter-gunn-theme'
 import gimmeSomeLovin from './gimme-some-lovin'
 import threeBlindMice from './three-blind-mice'
 import youReallyGotMe from './you-really-got-me'
@@ -77,6 +78,7 @@ export default [
   happyBirthday,
   risinToTheTop,
   gimmeSomeLovin,
+  peterGunnTheme,
   threeBlindMice,
   youReallyGotMe,
   itsyBitsySpider,
